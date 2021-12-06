@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "BYekan";
+  src: url("../fonts/Sahel.eot") format("eot"),
+    url("../fonts/Sahel.woff") format("woff"),
+    url("../fonts/Sahel.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.body {
+  font-family: "BYekan";
+  src: url("../fonts/Sahel.eot") format("eot"),
+    url("../fonts/Sahel.woff") format("woff"),
+    url("../fonts/Sahel.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.topnav {
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  border-radius: 30px;
+  margin: 0px 30px 10px 30px;
+  box-shadow: 0 8px 16px 0 #d7b9ff;
+}
+
+.topnav a {
+  float: left;
+  color: #5700c9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav img {
+  width: 3%;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav button {
+  /* background-color: #5700c9;
+  color: white;
+  float: right;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 5px 15px 3px 1px;
+  justify-content: center;
+  border-color: #5700c9; */
+  background-color: #5700c9;
+  border-color: #5b00b1;
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 17px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.titlebox {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-left {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-21%, -50%);
+}
+
+.titlebox img {
+  width: 95%;
+  border-radius: 20px;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 254, 254);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: rgb(255, 255, 255);
+}
+
+.default:hover {
+  background: #f1efef;
+  color: #5700c9;
+}
+
+.subtitlebox {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 30px 5px 30px;
+}
+
+.secondsubtitlebox {
+  background-color: #fdfdfd;
+  border-color: #5700c9;
+  box-shadow: 2px 8px 16px 2px #d7b9ff;
+  flex: 15%;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 60px;
+  justify-content: center;
+  text-align: center;
+  color: #5700c9;
+}
+
+.secondsubtitlebox img {
+  width: 30%;
+}
+
+.footer {
+  background-color: #5700c9;
+  overflow: hidden;
+  margin: 0px 30px 10px 30px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.footer a {
+  color: white;
+  float: center;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer a:hover {
+  background-color: rgb(222, 211, 230);
+  color: #5700c9;
+}
+
+.footer a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.subscribebox {
+  width: 95%;
+  height: 25%;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  margin: 30px;
+  background-color: #5700c9;
+}
+
+.subscribebox img {
+  width: 20%;
+  height: 20%;
+  margin-top: 45px;
+  padding: 30px;
+}
+
+.subscribebox-2 {
+  width: 95%;
+  height: 25%;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #5700c9;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 2px 5px 5px 5px #d7b9ff;
+}
+
+.subscribebox-2 img {
+  width: 35%;
+  height: 35%;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.subscribebox-part {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  width: 30%;
+  padding: 50px;
+}
+
+.statics {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 30px 5px 30px;
+}
+
+.staticscard {
+  background-color: #ffffff;
+  border-color: #5700c9;
+  box-shadow: 2px 8px 16px 2px #caa9f5;
+  flex: 25%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  color: #5700c9;
+}
+
+.staticscard img {
+  width: 40%;
+  text-align: center;
+  /* background-color: #5700c9;
+  border-radius: 50%; */
+  border-color: #5700c9;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #0a537e;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
